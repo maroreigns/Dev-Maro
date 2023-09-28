@@ -225,3 +225,11 @@ section{
 .react-bar{
     width: 80%;
 }
+
+/* servioces section */
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+
+}
