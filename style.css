@@ -248,3 +248,113 @@ section{
     border-bottom: 2px solid var(--main-color);
     box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
+
+.services-box .bx{
+    padding-top: 2rem;
+    font-size: 54px;
+    color: var(--main-color);
+    
+}
+
+.services-box h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0.4rem;
+}
+
+.services-box a{
+    color: var(--main-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+}
+
+.services-box:hover{
+    background:  #02225a;
+}
+
+.services-box:hover h3{
+    color: #fff;
+}
+
+.services-box:hover .bx{
+    color: #22cf91;
+}
+
+.services-box:hover a{
+    color: #8b8a8f;
+}
+
+/* portfolio section */
+
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.1rem;
+    margin-top: 2rem;
+}
+
+.portfolio-img{
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+}
+
+.portfolio-img img{
+    width: 100%;
+    display: block;
+}
+
+.portfolio-img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* contact form */
+
+.contact-form{
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form input,
+form textarea{
+    padding: 15px;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: hsla(206, 100%, 44%, 0.1);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+form textarea{
+    resize: none;
+    height: 200px;
+}
+
+
+.contact-button{
+    width: 160px;
+    cursor: pointer;
+    background: #2768d9;
+    color: #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 35%;
+
+}
+
+.contact-button:hover{
+    background: var(--hover);
+}
