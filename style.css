@@ -28,6 +28,21 @@ body{
     color: var(--text-color);
 }
 
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
 /* for darkmode */
 body.active{
     --text-color:#fff;
