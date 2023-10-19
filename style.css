@@ -244,8 +244,9 @@ header{
 
 .skills-img img{
     width: 100%;
-    padding-left: 15rem;
+    padding-left: 22rem;
     object-position: center;
+    text-align: center;
 }
 
 .bars-box{
@@ -283,22 +284,7 @@ header{
 }
 
 
-.html-bar{
-    width: 94%;
 
-}
-
-.css-bar{
-    width: 84%;
-}
-
-.js-bar{
-    width: 74%;
-}
-
-.react-bar{
-    width: 80%;
-}
 
 /* servioces section */
 
@@ -336,11 +322,6 @@ header{
     margin: 0.7rem 0 0.4rem;
 }
 
-.services-box a{
-    color: var(--main-color);
-    font-size: var(--p-font);
-    font-weight: 500;
-}
 
 .services-box:hover{
     background:  #02225a;
