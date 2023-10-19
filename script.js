@@ -22,3 +22,12 @@ darkmode.onclick = () =>{
     }
 };
 
+
+const person = {
+    firstName: "maro",
+    lastName: "Obaro",
+    student: true,
+    notAStudent: false,
+}
+
+console.log(person)
